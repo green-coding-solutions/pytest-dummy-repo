@@ -2,11 +2,15 @@
 name: Test Stress
 author: Dan Mateas <dan@green-coding.berlin>
 version: 1
+description: test
 
 services:
   ubuntu-stress:
     type: container
     image: gcb_stress
+    build:
+      context: .
+      dockerfile: Dockerfile
 
 flow:
   - name: Stress
