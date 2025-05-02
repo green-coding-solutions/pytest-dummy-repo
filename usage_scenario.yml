@@ -16,5 +16,5 @@ flow:
     container: ubuntu-stress
     commands:
       - type: console
-        command: stress-ng -c 1 -t 1 -q
+        command: __GMT_VAR_COMMAND__ -c 1 -t 1 -q
         note: Starting Stressa
