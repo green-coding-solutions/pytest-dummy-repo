@@ -17,4 +17,6 @@ flow:
     commands:
       - type: console
         command: stress-ng -c 1 -t 1 -q
-        note: Starting Stressa
+        note: Starting Stress
+      - type: console
+        command: echo toll
