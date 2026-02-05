@@ -5,7 +5,6 @@ description: test
 
 services:
   ubuntu-stress:
-    type: container
     image: gcb_stress
     build:
       context: .
